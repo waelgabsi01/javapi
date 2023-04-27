@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="605.0" prefWidth="1025.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="605.0" prefWidth="1025.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="RentRewards.UI.donation.list.DonationlistController">
    <children>
       <ImageView fx:id="imagebckground" disable="true" fitHeight="614.0" fitWidth="1033.0" layoutX="-4.0" layoutY="-4.0" pickOnBounds="true" smooth="false">
          <image>
@@ -42,9 +42,9 @@
       </AnchorPane>
       <TableView layoutX="328.0" layoutY="108.0" prefHeight="390.0" prefWidth="648.0">
          <columns>
-            <TableColumn prefWidth="221.0" text="Charity_Title" />
+            <TableColumn prefWidth="271.0" text="Charity_Title" />
+            <TableColumn prefWidth="211.0" text="Date" />
             <TableColumn minWidth="0.0" prefWidth="165.0" text="Value" />
-            <TableColumn prefWidth="261.0" text="Date" />
          </columns>
       </TableView>
    </children>

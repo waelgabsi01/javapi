@@ -4,11 +4,29 @@
  * and open the template in the editor.
  */
 package RentRewards.UI.charitydemand.list;
-
+import javafx.application.Application;
+import static javafx.application.Application.launch;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
 /**
  *
  * @author MSI
  */
-class i {
+public class i extends Application{
+    @Override
+    public void start(Stage stage) throws Exception {
+        Parent root = FXMLLoader.load(getClass().getResource("/RentRewards/UI/charitydemand/list/listedemand.fxml"));
+
+        Scene scene = new Scene(root);
+
+        stage.setScene(scene);
+        stage.show();
+    }
+
+    public static void main(String[] args) {
+        launch(args);
+    }
     
 }

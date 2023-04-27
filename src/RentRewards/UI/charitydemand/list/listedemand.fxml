@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
 <?import javafx.scene.control.MenuButton?>
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.control.TableColumn?>
@@ -39,13 +40,20 @@
                </items>
             </MenuButton>
          </children></AnchorPane>
-      <TableView fx:id="tabCharity" layoutX="424.0" layoutY="122.0" onMouseClicked="#showselecteditem" onSort="#liste" prefHeight="206.0" prefWidth="560.0">
+      <TableView fx:id="tabCharity" layoutX="651.0" layoutY="394.0" onMouseClicked="#showselecteditem" onSort="#showselecteditem" prefHeight="174.0" prefWidth="309.0">
          <columns>
-            <TableColumn fx:id="colTitrecharite" prefWidth="107.0" text="TITLE" />
-            <TableColumn fx:id="colreceiver" prefWidth="143.0" text="RECEIVER" />
-            <TableColumn fx:id="colvalue" prefWidth="109.0" text="VALUE" />
-            <TableColumn fx:id="coldate" prefWidth="109.0" text="DATE" />
+            <TableColumn fx:id="CTitle" prefWidth="107.0" text="Title" />
+            <TableColumn fx:id="Creceiver" prefWidth="143.0" text="Receiver" />
+            <TableColumn fx:id="Cusername" prefWidth="109.0" text="UserName" />
+            <TableColumn fx:id="Ccategory" prefWidth="109.0" text="Category" />
+            <TableColumn fx:id="Cpoints" prefWidth="109.0" text="Points" />
+            <TableColumn fx:id="Cimage" prefWidth="109.0" text="Image" />
+            <TableColumn fx:id="Cdate" prefWidth="109.0" text="Date" />
          </columns>
       </TableView>
+      <Button fx:id="modDembtn" layoutX="657.0" layoutY="92.0" mnemonicParsing="false" onAction="#Modifier" text="Modifier" />
+      <Button fx:id="SuppDembtn" layoutX="651.0" layoutY="130.0" mnemonicParsing="false" onAction="#Supprimer" text="Supprimer" />
+      <Button fx:id="Affdembtn" layoutX="659.0" layoutY="165.0" mnemonicParsing="false" onAction="#Afficher" text="Afficher" />
+      <ListView fx:id="listedemand" layoutX="53.0" layoutY="55.0" prefHeight="521.0" prefWidth="387.0" />
    </children>
 </Pane>

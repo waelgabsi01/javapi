@@ -70,6 +70,16 @@ public class Charity_Demand {
         this.file_upload = file_upload;
     }
 
+    public Charity_Demand(int username_id, int category_id, String title, String receiver, float pointsdemanded, Date datedemand, String file_upload) {
+        this.username_id = username_id;
+        this.category_id = category_id;
+        this.title = title;
+        this.receiver = receiver;
+        this.pointsdemanded = pointsdemanded;
+        this.datedemand = datedemand;
+        this.file_upload = file_upload;
+    }
+
    
     
 
@@ -188,7 +198,7 @@ public class Charity_Demand {
 
     @Override
     public String toString() {
-        return  "\n"+"Charity_Demand{" + "id=" + id + ", username_id=" + username_id + ", category_id=" + category_id + ", title=" + title + ", receiver=" + receiver + ", pointsdemanded=" + pointsdemanded + ", datedemand=" + datedemand + ", file_upload=" + file_upload + '}';
+        return  "\n"+"Charity_Demand{" +  ", username_id=" + username_id + ", category_id=" + category_id + ", title=" + title + ", receiver=" + receiver + ", pointsdemanded=" + pointsdemanded + ", datedemand=" + datedemand + ", file_upload=" + file_upload + '}';
     }
     
     

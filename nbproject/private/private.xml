@@ -4,19 +4,21 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/MSI/Documents/NetBeansProjects/RentRewards1/src/RentRewards/UI/MainPage/HomeController.java</file>
-            <file>file:/C:/Users/MSI/Documents/NetBeansProjects/RentRewards1/src/RentRewards/Main/NewFXMain.java</file>
             <file>file:/C:/Users/MSI/Documents/NetBeansProjects/RentRewards1/src/RentRewards/UI/charitydemand/add/NewCharityController.java</file>
+            <file>file:/C:/Users/MSI/Documents/NetBeansProjects/RentRewards1/src/RentRewards/UI/charitydemand/viewsingl/ViewsingleController.java</file>
+            <file>file:/C:/Users/MSI/Documents/NetBeansProjects/RentRewards1/src/payme/Payme.java</file>
+            <file>file:/C:/Users/MSI/Documents/NetBeansProjects/RentRewards1/src/RentRewards/Main/NewFXMain2.java</file>
             <file>file:/C:/Users/MSI/Documents/NetBeansProjects/RentRewards1/src/RentRewards/UI/charitydemand/list/ListedemandController.java</file>
+            <file>file:/C:/Users/MSI/Documents/NetBeansProjects/RentRewards1/src/RentRewards/UI/charitydemand/viewsingl/viewsingle.fxml</file>
             <file>file:/C:/Users/MSI/Documents/NetBeansProjects/RentRewards1/src/RentRewards/entities/Donation/Donation.java</file>
-            <file>file:/C:/Users/MSI/Documents/NetBeansProjects/RentRewards1/src/RentRewards/entities/CharityDemand/ServicecharityDemand.java</file>
-            <file>file:/C:/Users/MSI/Documents/NetBeansProjects/RentRewards1/src/RentRewards/entities/CharityDemand/Charity_Demand.java</file>
-            <file>file:/C:/Users/MSI/Documents/NetBeansProjects/RentRewards1/src/RentRewards/entites/CharityCategory/CharityCategory.java</file>
-            <file>file:/C:/Users/MSI/Documents/NetBeansProjects/RentRewards1/src/RentRewards/UI/charitydemand/add/AddCHarityloader.java</file>
-            <file>file:/C:/Users/MSI/Documents/NetBeansProjects/RentRewards1/src/RentRewards/UI/donation/add/NewFXMain1.java</file>
-            <file>file:/C:/Users/MSI/Documents/NetBeansProjects/RentRewards1/src/RentRewards/Main/RentRewards1.java</file>
+            <file>file:/C:/Users/MSI/Documents/NetBeansProjects/RentRewards1/src/payme/payy.java</file>
+            <file>file:/C:/Users/MSI/Documents/NetBeansProjects/RentRewards1/src/RentRewards/payement/AddCHarityloader.java</file>
+            <file>file:/C:/Users/MSI/Documents/NetBeansProjects/RentRewards1/src/RentRewards/UI/donation/add/donationadd.java</file>
+            <file>file:/C:/Users/MSI/Documents/NetBeansProjects/RentRewards1/src/RentRewards/CharityDemand/CalendarController.java</file>
             <file>file:/C:/Users/MSI/Documents/NetBeansProjects/RentRewards1/src/RentRewards/UI/MainPage/home.java</file>
             <file>file:/C:/Users/MSI/Documents/NetBeansProjects/RentRewards1/src/RentRewards/UI/categories/list/ListController.java</file>
-            <file>file:/C:/Users/MSI/Documents/NetBeansProjects/RentRewards1/src/RentRewards/UI/charitydemand/add/newCharity.fxml</file>
+            <file>file:/C:/Users/MSI/Documents/NetBeansProjects/RentRewards1/src/RentRewards/payement/PayementController.java</file>
+            <file>file:/C:/Users/MSI/Documents/NetBeansProjects/RentRewards1/src/RentRewards/payement/WeeklyController.java</file>
         </group>
     </open-files>
 </project-private>
